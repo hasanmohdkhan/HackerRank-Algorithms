@@ -16,7 +16,7 @@ public class TimeConversion {
         SimpleDateFormat displayFormat = new SimpleDateFormat("HH:mm:ss");
         	
         Date date = inputFormat.parse(time);
-        System.out.println(displayFormat.format(date));
+        System.out.println("24 Hrs: "+displayFormat.format(date));
         in.close();
           
         
